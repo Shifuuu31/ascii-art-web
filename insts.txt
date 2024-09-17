@@ -1,0 +1,12 @@
+build a main handler
+    if u're not in the root path > 404
+    if methode not Get > methode not allowed
+    parse html template
+build a second page where ascii generated handler
+    if u're not in the second page path > 404
+    if methode not POST > methode not allowed
+    parse forme
+    call input and banner using form.get("input" | "banner")
+    generate ascci and put it in result
+    then redirct to root path
+let ur server listen
